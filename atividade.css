@@ -1,8 +1,18 @@
 body  {  	
 	margin: 30;  	
-	padding: 0;  	
-	background: rgb(196, 188, 223);  
-	}
+  padding: 30;
+  height: 100%;  	
+	background: #6ab1fd;
+  background: linear-gradient(to right, #387bd3, #6d97b3);  
+  }
+  
+  .page-content {
+    flex: 1 0 auto;
+  }
+  
+  .sticky-footer {
+    flex-shrink: none;
+  }
 
   /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -34,7 +44,7 @@ body  {
 .img-responsive {
 max-width: 100%;
 height: auto;
-display: block;
+display: flex;
 }
 
 
@@ -44,7 +54,34 @@ display: block;
   margin-right: auto;
 }
 
-// Usage as a mixin
-.element {
-  .center-block();
+.img-coluna {
+  width: 240px;
+  height: 240px;
+  margin-left: 30px;
+}
+
+
+
+
+.flex-container1 {
+  display: flex;
+  margin-top: 0px;
+  height: 350px;
+  width: 480px;
+  justify-content: flex-start;
+}
+
+.flex-container2 {
+  display: flex;
+  margin-top: 0px;
+  height: 350px;
+  width: 480px;
+  justify-content: flex-end;
+}
+
+.pagetitle {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
 }

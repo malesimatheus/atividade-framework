@@ -3,7 +3,7 @@ body  {
   padding: 30;
   height: 100%;  	
 	background: #6ab1fd;
-  background: linear-gradient(to right, #387bd3, #90a7b6);  
+  background: linear-gradient(to right, #387bd3, #b7c6d1);  
   }
   
   .page-content {
@@ -65,37 +65,21 @@ display: flex;
 
 .flex-container1 {
   display: flex;
-  margin-top: 150px;
-  margin-bottom: 00px;
-  height: 600px;
+  margin-top: 50px;
+  height: 350px;
   width: 480px;
   justify-content: flex-start;
 }
 
 .flex-container2 {
   display: flex;
-  margin-top: 150px;
-  margin-bottom: 00px;
-  height: 600px;
+  margin-top: 50px;
+  height: 350px;
   width: 480px;
   justify-content: flex-end;
 }
 
-.flex-book1 {
-  display: flex;
-  margin-top: 0px;
-  height: 350px;
-  width: 200px;
-  justify-content: flex-start;
-}
 
-.flex-book2 {
-  display: flex;
-  margin-top: 0px;
-  height: 350px;
-  width: 200px;
-  justify-content: flex-end;
-}
 
 .pagetitle {
   display: flex;

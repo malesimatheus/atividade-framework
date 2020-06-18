@@ -10,6 +10,7 @@ if(cep >= 05500000 && cep <= 09020000) {
     alert('Ainda não atendemos sua região, mas estamos trabalhando para isso');
     }
 
+let numeroDaCasa = window.prompt('Insira o número da sua casa')
 
 let pratoPrincipal = ['X-Salada', 'X-Egg', 'X-Bacon', 'X-Tudo'];
 
@@ -74,3 +75,6 @@ if(formaDePagamento = 1) {
 }
 
 alert('Seu pedido foi realizado com sucesso');
+
+console.log('O pedido é 1 ' + pratoPrincipal[itemPratoPrincipal] + ', 1 ' + bebidas[itembebida] + ', e 1 ' + acompanhamento[itemAcompanhamento]);
+console.log('O valor do pedido é de R$' + precoTotal);

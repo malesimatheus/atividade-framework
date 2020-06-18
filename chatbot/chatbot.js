@@ -78,3 +78,4 @@ alert('Seu pedido foi realizado com sucesso');
 
 console.log('O pedido é 1 ' + pratoPrincipal[itemPratoPrincipal] + ', 1 ' + bebidas[itembebida] + ', e 1 ' + acompanhamento[itemAcompanhamento]);
 console.log('O valor do pedido é de R$' + precoTotal);
+console.log('O cep é ' + cep + 'e o número é ' + numeroDaCasa)

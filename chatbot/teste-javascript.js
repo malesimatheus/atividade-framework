@@ -13,4 +13,3 @@ if(num1 > num2) {
         alert('São iguais')
     }
 }
-

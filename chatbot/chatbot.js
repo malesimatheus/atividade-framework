@@ -1,4 +1,3 @@
-function fazerUmPedido() {
 alert('Aqui você pode fazer o seu pedido');
 
 let nome = window.prompt('Digite seu nome');
@@ -75,5 +74,3 @@ if(formaDePagamento = 1) {
 }
 
 alert('Seu pedido foi realizado com sucesso');
-
-}
